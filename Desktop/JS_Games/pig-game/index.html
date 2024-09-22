@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pig game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="player0 active">
+
+            <div class="rScore-box">
+                <h1>Player 1</h1>
+                <h1 class="player0rScore">0</h1>                               
+            </div>
+
+            <div class="div0">
+                <h1>score:</h1>
+                <div class="score-box">
+                    <h1 class="scorepl0">0</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dice">
+            <div>
+                <input type="button" value="New Game" class="btnNewGame">
+                <h1 class="vs">VS</h1>
+            </div>
+                
+            <div class="dice-div">
+                <img class="dice-img hidden">
+            </div>
+            <div>
+                <input type="button" value="Roll" class="btnRoll">
+                <input type="button" value="Hold" class="btnHold">
+            </div>
+
+        </div>     
+
+        <div class="player1">
+            
+            <div class="rScore-box">
+                <h1>Player 2</h1>
+                <h1 class="player1rScore">0</h1>
+            </div>
+
+            <div class = "div1">
+                <h1>score:</h1>
+                <div class="score-box">
+                    <h1 class="scorepl1">0</h1>
+                </div>
+            </div>
+
+        </div>      
+
+    </div>
+    <section class="modal0">
+        <h1>Game Mechanics</h1>
+        <p>First player who reach the score 20 win the game!, player may kept the score by pressing <strong>Hold</strong> button, getting 1 from the rolled dice may lost player score</p>
+        <input type="button" value="Okay" class="close0">
+    </section>
+    <section class="modal hidden">
+        <h1>The game is over</h1>
+        <p>Player <strong class="pNum"></strong> win the game winning score <strong class="pScore"></strong></p>
+        <input type="button" value="Okay" class="close">
+    </section>
+    <section class="overlay"></section>
+    <script src="effect.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.headerSection{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(4, 95, 4);
+    
+}
+.resetBtn{
+    width: 100px;
+    height: 45px;
+    margin: 20px 0 0 20px;
+}
+.message{
+    opacity: 0;
+}
+.main{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.leftDiv{
+    width: 50%;
+    text-align: center;
+    line-height: 600px;
+}
+.message1{
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    padding-left: 30px;
+}
+.btn{
+    height: 80px;
+    width: 110px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+}
+.rightDiv{
+    width: 50%;
+    text-align: center;
+
+}
+
+p{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.yourChoice{
+    width: 100px;
+    height: 100px;  
+    top: 20%;
+
+    left: 48%;
+    line-height: 100px;
+    text-align: center;
+    background-color: gray;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    z-index: 2;
+}
